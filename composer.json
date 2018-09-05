@@ -1,22 +1,21 @@
 {
-    "name"       : "swoole/framework",
+    "name"       : "ivene/swoole-framework",
     "description": "PHP Networking framework & Application Server.",
     "type"       : "library",
     "keywords"   : ["library", "websocket", "server", "webserver", "client", "socket", "framework"],
-    "homepage"   : "http://www.swoole.com/",
     "license"    : "LGPL",
     "autoload": {
         "psr-0": {"Swoole": "libs/"}
     },
     "authors"    : [
         {
-            "name" : "Tianfeng Han",
-            "email": "mikan.tenny@gmail.com"
+            "name" : "Ivene",
+            "email": "yao_ivene@163.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
       "filp/whoops": "^2.1",
-      "Symfony/Console": "^3.2"
+      "Symfony/Console": "^4.1"
     }
 }
