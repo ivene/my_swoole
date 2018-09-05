@@ -3,7 +3,7 @@
     "description": "PHP Networking framework & Application Server.",
     "type"       : "library",
     "keywords"   : ["library", "websocket", "server", "webserver", "client", "socket", "framework"],
-    "license"    : "LGPL",
+    "license"    : "MIT",
     "autoload": {
         "psr-0": {"Swoole": "libs/"}
     },
